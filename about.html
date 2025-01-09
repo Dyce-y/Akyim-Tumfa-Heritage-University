@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Akyim Tumfa Heritage University </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src=""></a>
+           <div class="nav-links"id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()" ></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+
+           </div>
+           <i class="fa fa-bars" onclick="showMenu()" ></i>
+
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <!------- about us content --------->
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>We are Ghana's Biggest University</h1>
+                <p>Welcome to Akyim Tumfa Heritage University, a premier institution of higher learning dedicated to providing students with a world-class education and exceptionalcareer opportunities.Our mission is to foster a community scholars who are passionatev about learning, innovation, and making a positive impact in the world.</p>
+                <a href="" class="hero-btn blue-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="about2.jpg">
+            </div>
+
+        </div>
+
+    </section>
+
+    
+
+
+
+
+
+
+
+
+<!----- Footer ------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Welcome to Akyim Tumfa Heritage University, a premier institution of higher learningdedicated to providing students with a world-class education and exceptionalcareer opportunities</p>
+    <p>Our mission is to foster a community scholars who are passionatev about learning, innovation, and making a positive impact in the world.</p>
+    <div class="icons">
+         <i class="fa fa-facebook" aria-hidden="true"></i>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<!--------JavaScript for Toggle Menu------->
+<script>
+    
+var navLinks = document.getElementById("navLinks");
+
+function showMenu(){
+    navLinks.style.right="0";
+}
+function hideMenu(){
+    navLinks.style.right="-200px";
+}
+
+</script>
+
+</body>
+</html>
