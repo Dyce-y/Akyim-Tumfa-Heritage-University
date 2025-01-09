@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Akyim Tumfa Heritage University </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src=""></a>
+           <div class="nav-links"id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()" ></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+
+           </div>
+           <i class="fa fa-bars" onclick="showMenu()" ></i>
+
+        </nav>
+
+<div class="text-box">
+    <h1>Ghana's Biggest University</h1>
+    <P>Join the ranks of Ghana's most talented minds at our esteemed university. With a strong focus on research, <br>innovation, and community service, we're creating a better future for all.</P>
+    <a href=""class="hero-btn">VISIT US TO KNOW MORE</a>
+</div>        
+
+    </section>
+
+    <!------ Course ------->
+
+ <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Geia sas</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Computer Science</h3>
+                <p>Introduction to Programming,Data Structures,Artificial Intelligence,Data communication.</p>
+            </div>
+            <div class="course-col">
+                <h3>Biology</h3>
+                <p>Cell Biology, Genetics,Ecology,Botany,Zoology,Evolutionary Biology.</p>
+            </div>
+            <div class="course-col">
+                <h3>Business Administrstion</h3>
+                <p>Management,Marketing,Finance,Business Ethics,Human Rresource,Business Law.</p>
+            </div>
+        </div>
+ </section>
+
+<!------- campus ------>
+
+    <section class="Campus">
+        <h1>Akyim Tumfa Heritage University Campus</h1>
+        <p>Welcome To Our Campus</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="OIP.jpg">
+                <div class="layer">
+                    <h3>TUMFA</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="OIP (3).jpg">
+                <div class="layer">
+                    <h3>AKROPONG</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="OIP (2).jpg">
+                <div class="layer">
+                    <h3>KWABENG</h3>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <!------- Facilities -------->
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>We Offer A Range Of World-Class Facilities,including:
+            •State-of-art laboratries
+            •Modern classroom
+            •High-performance sports complex
+            •Comfortable hostel
+            •Secure campus with 24/7 security
+        </p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="library.jpg">
+                <h3>World Class Library</h3>
+                <p>Our library features a vast collection of books,jornals, and digital resourses, providing a quiet and comfortable study space for students.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="classroom.jpg">
+                <h3>Modern Classroom</h3>
+                <p>Our modern classroom are equipped with state-of-the-art tecnology,including interactive whiteboards,projectors, and high-speed nternet, creating an engaging and effective learning enviroment.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="hostel-g.jpg">
+                <h3>Comfortable Hostel</h3>
+                <p>Our hostel provides comfortable and secure accommodation for students, with amenities such as Wi-Fi, laundry facilities,  and a common room for relaxation and socializing.</p>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-------- testimonials ------->
+
+    <section class="testimonials">
+        <h1>What Our Student Says</h1>
+        <p>"I'm so grateful for the opportunity to study at this university.The faculty and staff are supportivr, the facilities are top-notch, and the community is vibrant and diverse. I feel like I've grown so much as a person and a professional." - Ayitey Joseph, Class of 2023</p>
+
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="person.jpg">
+                <div>
+                    <p>The university's emphasis on hands-on learning and real-world applilications prepared me perfectly for my dream job.The professors were knowledgeable and supportive, and the campus resources were always available to help me succeed.</p>
+                    <h3>DeRose Ayitey</h3>
+                </div> 
+            </div>
+            <div class="testimonial-col">
+                <img src="bigslime.jpg">
+                <div>
+                    <p>The university's emphasis on hands-on learning and real-world applilications prepared me perfectly for my dream job.The professors were knowledgeable and supportive, and the campus resources were always available to help me succeed.</p>
+                    <h3>Bigslime</h3>
+                </div> 
+            </div>
+        </div>
+
+    </section>
+
+
+
+<!----- Call To Action ------->
+
+<section class="cta">
+    <h1>Enroll For Our various Online Courses<br> Anywhere From The World</h1>
+    <a href="" class="hero-btn">CONTACT US</a>
+</section>
+
+
+
+<!----- Footer ------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Welcome to Akyim Tumfa Heritage University, a premier institution of higher learning dedicated to providing students with a world-class education and exceptionalcareer opportunities</p>
+    <p>Our mission is to foster a community scholars who are passionatev about learning, innovation, and making a positive impact in the world.</p>
+    <div class="icons">
+         <i class="fa fa-facebook" aria-hidden="true"></i>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<!--------JavaScript for Toggle Menu------->
+<script>
+    
+var navLinks = document.getElementById("navLinks");
+
+function showMenu(){
+    navLinks.style.right="0";
+}
+function hideMenu(){
+    navLinks.style.right="-200px";
+}
+
+</script>
+
+</body>
+</html>
